@@ -2,7 +2,7 @@
 CLI-accessible Python script which, when passed proper arguments, calculates and displays a binomial distribution table.
 
 Taken directly from terminal:
-
+```
  py  python .\binomial_distribtuion_table.py -h
 usage: binomial_distribtuion_table.py [-h] [--precision PRECISION] [-t] [-m] n p
 
@@ -18,3 +18,4 @@ options:
                         (optional) decimal precision to round to
   -t, --only-table      only displays table
   -m, --only-mos        only displays the measures of spread
+```
